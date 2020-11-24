@@ -39,13 +39,19 @@ Kernel update. Create custom box for Vagrant Clound. Packer.
 Создаем директорию и инициализируем среду vagrant в этой папке:
 
 >mkdir test
+
 >cd test
+
 >vagrant init centos-7-5
 
 Проверяем версию ядра в созданной VM
+
 > vagrant up
+
 ...
+
 > vagrant ssh
+
 > uname -r
 
 Загружаю полученный файл .box на https://app.vagrantup.com/
